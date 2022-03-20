@@ -23,8 +23,7 @@ class Frame(wx.Frame):
 		self.bjk3 = wx.TextCtrl(self.qdck,size=(173, 23),pos=(175, 70),value='自行输入网关否则不生效',name='text',style=0)
 		self.an1 = wx.Button(self.qdck,size=(126, 47),pos=(175, 200),label='确认更改',name='button')
 		self.an1.Bind(wx.EVT_BUTTON,self.an1_anbdj)
-		# tpk1_图片 = wx.Image(r'C:\Users\XIA\Desktop\py\network\—Pngtree—question mark_1862963.png').ConvertToBitmap()
-		# self.tpk1 = wx.StaticBitmap(self.qdck, bitmap=tpk1_图片,size=(349, 206),pos=(-59, 162),name='staticBitmap',style=0)
+
 
 	def zhk1_xzlbx(self, event):
 		# 获取网卡名称self.zhk1.GetStringSelection()
